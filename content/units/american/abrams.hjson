@@ -1,4 +1,4 @@
-name: M1A2 Abrams
+name: abrams
 type: tank
 hitSize: 17
 omniMovement: false
