@@ -29,7 +29,7 @@ type: UnitFactory
  ]
 
  requirements: [
-   hack-circuit/45
+   thorium/45
  ]
 
  category: units
