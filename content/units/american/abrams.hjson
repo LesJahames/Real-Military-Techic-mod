@@ -51,14 +51,14 @@ weapons: [
     status: blasted
     hitSize: 0.4
     shootEffect: shootBig2
-    damage: 90
+    damage: 200
     collides: true 
     collidesTiles: true
     collidesAir: true 
     splashDamageRadius: 20
     splashDamage: 45
     speed: 5
-    lifeTime: 390
+    lifeTime: 5000
     }
    }
    {
@@ -80,9 +80,9 @@ weapons: [
 
  bullet: {
     type: BasicBulletType
-    damage: 9
+    damage: 15
     speed: 4
-    lifeTime: 10
+    lifeTime: 2000
   }
  }
 ]
