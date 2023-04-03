@@ -12,7 +12,7 @@ type: UnitFactory
 
  plans: [
    {
-     unit: M1A2 Abrams
+     unit: abrams
      time: 128
      requirements: [
        copper/100
