@@ -1,6 +1,6 @@
 name: Panzerkampfwagen VIII
 type: tank
-hitSize: 17
+hitSize: 19
 omniMovement: true
 health: 5000
 armor: 220
