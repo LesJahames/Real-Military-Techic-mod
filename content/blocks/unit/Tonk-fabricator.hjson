@@ -27,7 +27,7 @@ type: UnitFactory
      ]
    }
    {
-     unit: Panzerkampfwagen VIII
+     unit: maus
      time: 500
      requirements: [
        silicon/700
