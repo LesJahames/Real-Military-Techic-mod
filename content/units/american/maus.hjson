@@ -1,11 +1,11 @@
 name: Panzerkampfwagen VIII
 type: tank
 hitSize: 19
-omniMovement: true
+omniMovement: false
 health: 5000
 armor: 220
 speed: 0.3
-rotateSpeed: 5
+rotateSpeed: 0.5
 range: 290
 treadPullOffset: 6
 treadRects: [
@@ -28,7 +28,7 @@ weapons: [
  name: maus-weapon
  x: 0
  y: 0.7
-    rotateSpeed: 12
+    rotateSpeed: 5
     mirror: false
     rotate: true
     shootEffect: shootBig2
@@ -80,7 +80,7 @@ weapons: [
 
  bullet: {
     type: BasicBulletType
-    damage: 9
+    damage: 100
     speed: 4
     lifeTime: 10
   }
