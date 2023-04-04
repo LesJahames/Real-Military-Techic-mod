@@ -4,7 +4,7 @@ type: UnitFactory
  description: Produces 2nd to 3rd generation tanks
 
  health: 1500
- size: 2
+ size: 3
 
  consumes: {
    power: 100
