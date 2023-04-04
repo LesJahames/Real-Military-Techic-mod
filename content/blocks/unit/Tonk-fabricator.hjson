@@ -26,6 +26,14 @@ type: UnitFactory
        silicon/500
      ]
    }
+   {
+     unit: Panzerkampfwagen VIII
+     time: 500
+     requirements: [
+       silicon/700
+       thorium/10
+     ]
+   }
  ]
 
  requirements: [
