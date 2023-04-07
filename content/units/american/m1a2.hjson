@@ -1,10 +1,10 @@
 name: M1A2 Abrams
 type: tank
-hitSize: 18
+hitSize: 17
 omniMovement: false
 health: 1890
-armor: 12
-speed: 1
+armor: 200
+speed: 0.9
 rotateSpeed: 2
 range: 290
 treadPullOffset: 6
@@ -27,7 +27,7 @@ weapons: [
  {
  name: m1a2-weapon
  x: 0
- y: 0.7
+ y: 0
     rotateSpeed: 3
     mirror: false
     rotate: true
@@ -65,14 +65,14 @@ weapons: [
  name: m1a2-weapon2
   x: 2.7
   y: 1.6
-     rotateSpeed: 4
+     rotateSpeed: 3
      mirror: false
      rotate: true
      ignoreRotation: true
      followRotation: false
      rotateShooting: false
      shootEffect: shootSmall
-     reload: 10
+     reload: 100
      recoil: 2
      recoilTime: 300
      shootSound: pew
