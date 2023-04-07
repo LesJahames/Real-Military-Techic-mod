@@ -25,7 +25,7 @@ envDisabled: 0
 outlineColor: "2d2f39"
 weapons: [
  {
- name: abrams-weapon
+ name: m1a2-weapon
  x: 0
  y: 0.7
     rotateSpeed: 3
@@ -62,7 +62,7 @@ weapons: [
     }
    }
    {
- name: browning
+ name: m1a2-weapon2
   x: 2.7
   y: 1.6
      rotateSpeed: 4
