@@ -36,7 +36,7 @@ weapons: [
     followRotation: false
     rotateShooting: false
     reload: 10
-    recoil: 2.5
+    recoil: 1.5
     shootSound: artillery
     ejectEffect: casing2
 
