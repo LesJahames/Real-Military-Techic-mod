@@ -1,0 +1,64 @@
+name: M1A2 Abrams
+type: tank
+hitSize: 17
+omniMovement: false
+health: 1890
+armor: 200
+speed: 0.9
+rotateSpeed: 2
+range: 290
+treadPullOffset: 6
+treadRects: [
+  {
+  x: 6
+  y: 4
+  width: 5
+  height: 6
+  }
+  {
+  x: 5
+  height: 5
+  }
+]
+envEnabled: 17
+envDisabled: 0
+outlineColor: "2d2f39"
+weapons: [
+ {
+ name: m1a2-weapon
+ x: 0
+ y: 0
+    rotateSpeed: 3
+    mirror: false
+    rotate: true
+    shootEffect: shootBig2
+    ignoreRotation: true
+    followRotation: false
+    rotateShooting: false
+    reload: 10
+    recoil: 2.5
+    shootSound: artillery
+    ejectEffect: casing2
+
+ bullet: {
+    type: BasicBulletType
+    trailMult: 0.8 
+        trailColor: ff7f14ff
+        frontColor: ff9a00ff
+	backColor: ffa621ff
+    width: 8
+    height: 10
+    status: blasted
+    hitSize: 0.4
+    shootEffect: shootBig2
+    damage: 125
+    collides: true 
+    collidesTiles: true
+    collidesAir: true 
+    splashDamageRadius: 50
+    splashDamage: 500
+    speed: 3
+    lifeTime: 5000
+    }
+   }
+]
