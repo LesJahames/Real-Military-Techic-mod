@@ -4,9 +4,9 @@ It's hjson mod
 
 Mod adds:
 
-2 units
+Third Generation and Second generation Tanks
 
-1 block
+3 blocks
 
 2 liquids
 
