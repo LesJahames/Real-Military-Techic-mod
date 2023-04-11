@@ -28,7 +28,7 @@ weapons: [
  name: maus-weapon
  x: 0
  y: 0.7
-    rotateSpeed: 5
+    rotateSpeed: 1
     mirror: false
     rotate: true
     shootEffect: shootBig2
@@ -51,7 +51,7 @@ weapons: [
     status: blasted
     hitSize: 0.4
     shootEffect: shootBig2
-    damage: 188
+    damage: 1880
     collides: true 
     collidesTiles: true
     collidesAir: true 
