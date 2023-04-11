@@ -2,7 +2,7 @@ name: M113 Armoured Vehicle (Chaffe Burst Cannon Vers.)
 type: tank
 hitSize: 17
 omniMovement: false
-health: 1750
+health: 1000
 armor: 100
 speed: 0.95
 rotateSpeed: 2
@@ -28,35 +28,24 @@ weapons: [
  name: m113(c)-weapon
  x: 0
  y: 0
-    rotateSpeed: 3
+    rotateSpeed: 2.5
     mirror: false
     rotate: true
     shootEffect: shootBig2
     ignoreRotation: true
     followRotation: false
     rotateShooting: false
-    reload: 10
+    reload: 9
     recoil: 1.5
     shootSound: artillery
-    ejectEffect: casing2
+    ejectEffect: casing1
 
  bullet: {
     type: BasicBulletType
-    trailMult: 0.8 
-        trailColor: ff7f14ff
-        frontColor: ff9a00ff
-	backColor: ffa621ff
-    width: 8
-    height: 10
+    damage:60
     status: blasted
     hitSize: 0.4
-    shootEffect: shootBig2
-    damage: 125
-    collides: true 
-    collidesTiles: true
-    collidesAir: true 
-    splashDamageRadius: 50
-    splashDamage: 500
+    shootEffect: shootSmall
     speed: 3
     lifeTime: 5000
     }
