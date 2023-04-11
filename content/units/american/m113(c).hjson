@@ -1,10 +1,10 @@
-name: M1A2 Abrams
+name: M113 Armoured Vehicle (Chaffe Burst Cannon Vers.)
 type: tank
 hitSize: 17
 omniMovement: false
-health: 1890
-armor: 200
-speed: 0.9
+health: 1750
+armor: 100
+speed: 0.95
 rotateSpeed: 2
 range: 290
 treadPullOffset: 6
@@ -25,7 +25,7 @@ envDisabled: 0
 outlineColor: "2d2f39"
 weapons: [
  {
- name: m1a2-weapon
+ name: m113(c)-weapon
  x: 0
  y: 0
     rotateSpeed: 3
