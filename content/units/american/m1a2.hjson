@@ -58,7 +58,7 @@ weapons: [
     splashDamageRadius: 20
     splashDamage: 500
     speed: 5
-    lifeTime: 9999
+    lifeTime: 5000
     }
    }
    {
@@ -72,7 +72,7 @@ weapons: [
      followRotation: false
      rotateShooting: false
      shootEffect: shootSmall
-     reload: 100
+     reload: 3
      recoil: 2
      recoilTime: 300
      shootSound: pew
@@ -81,7 +81,7 @@ weapons: [
  bullet: {
     type: BasicBulletType
     damage: 50
-    speed: 10
+    speed: 5
     lifeTime: 5000
   }
  }
