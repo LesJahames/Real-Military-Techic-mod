@@ -1,0 +1,36 @@
+type: UnitFactory
+
+ name: Toy Factory
+ description: Produces 2nd to 3rd generation tanks
+
+ health: 1500
+ size: 3
+
+ consumes: {
+   power: 100
+ }
+
+ plans: [
+   {
+     unit: green infantry jeep 
+     time: 12
+     requirements: [
+       copper/100
+       silicon/50
+     ]
+   }
+   {
+     unit: green armoured infantry vehicle 
+     time: 20
+     requirements: [
+       silicon/500
+     ]
+   }
+   {
+     unit: green infantry fighting vehicle
+     time: 50
+     requirements: [
+       silicon/700
+       thorium/10
+     ]
+   }
